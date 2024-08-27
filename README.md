@@ -16,7 +16,7 @@ Este projeto automatiza o processo de exclusão de repositórios do GitHub utili
 
    ```bash
    git clone https://github.com/DaniloCHGS/delete-multi-repo
-   cd github-delete-multi-repo
+   cd delete-multi-repo
 
    ```
 
