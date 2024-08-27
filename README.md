@@ -36,14 +36,16 @@ Este projeto automatiza o processo de exclusão de repositórios do GitHub utili
 
    ```
 
-4. **Carregue o array repositories no index.ts com os nomes dos repositórios que deseja excluir:**
+# Executando o código:
+
+1. **Carregue o array repositories no index.ts com os nomes dos repositórios que deseja excluir:**
 
    ```bash
    const repositories: Repositories = ["repo-1", "repo-2", "repo-3"];
 
    ```
 
-5. **Execute o código:**
+2. **Rodando o script:**
 
    ```bash
    npm run start
