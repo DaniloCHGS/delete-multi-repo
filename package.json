@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
+    "dev": "nodemon --watch src --ext ts --exec \"npm run build-and-start\"",
     "build-and-start": "npm run build && npm run start",
     "watch": "tsc --watch"
   },
@@ -15,10 +16,11 @@
   "devDependencies": {
     "@types/node": "^22.5.0",
     "@types/selenium-webdriver": "^4.1.26",
+    "chromedriver": "^127.0.3",
+    "nodemon": "^3.1.4",
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "chromedriver": "^128.0.0",
     "selenium-webdriver": "^4.23.0"
   }
 }
