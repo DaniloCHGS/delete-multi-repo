@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "build-and-start": "npm run build && npm run start",
+    "watch": "tsc --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.5.0",
+    "@types/selenium-webdriver": "^4.1.26",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "chromedriver": "^128.0.0",
+    "selenium-webdriver": "^4.23.0"
   }
 }
