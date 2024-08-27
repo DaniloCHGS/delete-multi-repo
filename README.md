@@ -27,7 +27,7 @@ Este projeto automatiza o processo de exclusão de repositórios do GitHub utili
 
    ```
 
-3. **Utilize um arquivo .env-example apenas como .env na raiz do projeto e adicione suas credenciais do GitHub:**
+3. **Utilize o arquivo .env-example apenas como .env na raiz do projeto e adicione suas credenciais do GitHub:**
 
    ```bash
    GITHUB_EMAIL=seu-email@example.com
