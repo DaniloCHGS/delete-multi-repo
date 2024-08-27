@@ -48,5 +48,5 @@ Este projeto automatiza o processo de exclusão de repositórios do GitHub utili
 2. **Rodando o script:**
 
    ```bash
-   npm run start
+   npm run dev
    ```
